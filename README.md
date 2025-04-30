@@ -99,8 +99,7 @@ $ php -S localhost:8080
 - `site.webmanifest`: [スマホでホーム画面に追加](https://www.google.com/search?q=スマホ+ホーム画面+追加)した際に表示されるサイト名 (任意)
 - `sitemap.xml`: ドメイン名 (必須)
 
-修正例: [:octocat: coderdojo-japan/dojocon2025-teaser.coderdojo.jp#1](https://github.com/coderdojo-japan/dojocon2025-teaser.coderdojo.jp/pull/1/files)
-
+入力例: [:octocat: coderdojo-japan/dojocon2025-teaser.coderdojo.jp - fill date / location #1](https://github.com/coderdojo-japan/dojocon2025-teaser.coderdojo.jp/pull/1/files)
 
 
 <div id='references'></div>
