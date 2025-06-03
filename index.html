@@ -8,43 +8,96 @@
 
     <!-- Settings for social web services (as minimum as possible) -->
     <title>DojoCon Japan - 年１回の CoderDojo カンファレンス</title>
-    <meta name="description"   content="DojoCon Japan とは、日本の CoderDojo コミュニティメンバーが全国から集まる年に１度のカンファレンスです。">
-    <meta property="og:type"   content="website" />
-    <meta property="og:image"  content="https://dojocon2025.coderdojo.jp/img/cover.jpg">
-    <meta name="twitter:card"  content="summary_large_image" />
+    <meta name="description" content="DojoCon Japan とは、日本の CoderDojo コミュニティメンバーが全国から集まる年に１度のカンファレンスです。">
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://dojocon2025.coderdojo.jp/img/cover.jpg">
+    <meta name="twitter:card" content="summary_large_image" />
 
     <!-- Settings for web browsers (as minimum as possible) -->
-    <link rel='canonical'        href='https://dojocon2025.coderdojo.jp/' />
-    <link rel='shortlink'        href='https://dojocon2025.coderdojo.jp/' />
-    <link rel="manifest"         href="/site.webmanifest">
-    <link rel="icon"             href="/favicon.ico">         <!-- 32×3   -->
+    <link rel='canonical' href='https://dojocon2025.coderdojo.jp/' />
+    <link rel='shortlink' href='https://dojocon2025.coderdojo.jp/' />
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="icon" href="/favicon.ico"> <!-- 32×3   -->
     <link rel="apple-touch-icon" href="/apple-touch-icon.png"><!-- 180×180 -->
 
     <style type="text/css">
       @import"https://fonts.googleapis.com/css2?family=Space+Mono&display=swap";
-      html { scroll-behavior:smooth }
-      body {
-	font-family:"Roboto","Noto Sans JP",sans-serif;
-	margin:0;
-	text-align:center;
-	color:#046;
-	padding-top:60px;
-      }
-      .container {
-	text-align: center;
-	font-size: 4vw;
-	font-family: 'Space Mono';
+
+      html {
+        scroll-behavior: smooth
       }
 
-      .cursor::after{
-	content:"_";
-	animation: blink 1s infinite
+      body {
+        font-family: "Roboto", "Noto Sans JP", sans-serif;
+        margin: 0;
+        text-align: center;
+        color: #046;
+        padding-top: 60px;
       }
-      @keyframes blink{
-	0%   { opacity:0 }
-	50%  { opacity:0 }
-	51%  { opacity:1 }
-	100% { opacity:1 }
+
+      .container {
+        text-align: center;
+        font-size: 4vw;
+        font-family: 'Space Mono';
+      }
+
+      .cursor::after {
+        content: "_";
+        animation: blink 1s infinite
+      }
+
+      @keyframes blink {
+        0% {
+          opacity: 0
+        }
+
+        50% {
+          opacity: 0
+        }
+
+        51% {
+          opacity: 1
+        }
+
+        100% {
+          opacity: 1
+        }
+      }
+
+      .contact {
+        font-size: 24px;
+        background-color: #036EB8;
+        color: ghostwhite;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+      }
+
+      .button {
+        background-color: #036EB8;
+        color: ghostwhite;
+        border-radius: 0.5em;
+        border: 1px solid;
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-bottom: 0.5em;
+        padding-top: 0.5em;
+        text-decoration: none;
+        display: inline-block;
+      }
+
+      .button:hover {
+        background-color: ghostwhite;
+        color: black;
+      }
+
+      .mx-0 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+
+      .mx-1em {
+        margin-top: 1em;
+        margin-bottom: 1em;
       }
     </style>
   </head>
@@ -52,24 +105,30 @@
   <body>
     <div class='container'>
       <div style='margin-top: 1.0em;'>
-        <img src="/img/logo.webp" loading="lazy" width='50%'
-             alt="CoderDojo Logo"
-  	   title="CoderDojo Logo" />
+        <img src="/img/logo.webp" loading="lazy" width='50%' alt="CoderDojo Logo" title="CoderDojo Logo" />
       </div>
       <div style="margin-top: 1.0em;">DojoCon Japan 2025</div>
       <div style="margin-top: 0.0em;">"Inspire Next 〜好奇心に火をつけよう〜"</div>
       <div style="margin-top: 0.5em;">2025年10月25日（土曜）開催決定!</div>
       <div style="margin-top: 0.5em;">【開催場所 福岡県久留米市 久留米シティプラザ】</div>
       <div style="margin-top: 0.5em;" class="cursor">SAVE THE DATE</div>
+
+      <section class="contact" style="margin-top: 2em; padding-top: 1em; padding-bottom: 1em">
+        <p class="mx-0"><strong>CONTACT</strong></p>
+        <h2 class="mx-0">お問合せ</h2>
+        <p class="mx-1em">DojoCon Japan 2025 についてのお問い合わせは以下のリンク先（Googleフォーム）よりお願いいたします。</p>
+        <a class="button" href="#" target="_blank" rel="noopener">お問い合わせする</a>
+      </section>
+
       <div style='margin-top: 2.0em;'>
-        <img src="/img/cover-photo.webp" loading="lazy" width='100%'
-             alt="DojoCon Japan Cover Photo"
-  	   title="DojoCon Japan Cover Photo" />
+        <img src="/img/cover-photo.webp" loading="lazy" width='100%' alt="DojoCon Japan Cover Photo"
+          title="DojoCon Japan Cover Photo" />
       </div>
+
       <div style='margin-top: 2.0em; margin-bottom: 0.5em; font-size: 55%;'>
-	<a href='https://dojocon.coderdojo.jp/' style='text-decoration: none;'>
-	  &raquo; 過去の開催事例を見る
-	</a>
+        <a href='https://dojocon.coderdojo.jp/' style='text-decoration: none;'>
+          &raquo; 過去の開催事例を見る
+        </a>
       </div>
     </div>
   </body>
