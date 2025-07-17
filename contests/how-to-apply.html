@@ -1,12 +1,10 @@
 <!DOCTYPE html>
-<html lang='ja'>
+<html lang="ja">
 
-  <head>
-    <meta charset='UTF-8'>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-
-    <!-- Settings for social web services (as minimum as possible) -->
-    <title>DojoCon Japan 2025 プログラミングコンテスト 参加規約 - DojoCon Japan 2025</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DojoCon Japan 2025 プログラミングコンテスト コンテスト応募方法 - DojoCon Japan 2025</title>
     <meta name="description" content="DojoCon Japan とは、日本の CoderDojo コミュニティメンバーが全国から集まる年に１度のカンファレンスです。">
     <meta property="og:type" content="website" />
     <meta property="og:image" content="https://dojocon2025.coderdojo.jp/img/cover.jpg">
@@ -21,223 +19,270 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic&family=Noto+Sans+JP:wght@100..900&display=swap"
-      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=family=Noto+Sans+JP:wght@100..900&display=swap"
+        rel="stylesheet">
     <style>
-      body {
-        font-family: "BIZ UDPGothic", "Noto Sans JP", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 400;
-        font-style: normal;
-
-        padding: 2em;
-
-        max-width: 960px;
-        margin-left: auto;
-        margin-right: auto;
-      }
-
-      .protopedia-logo {
-        width: 12em;
-      }
-
-      .hint {
-        background: #f3f8fd;
-        border-left: 6px solid #2275ca;
-        padding: .5em 1em;
-        text-align: left;
-      }
-
-      table {
-        td {
-          vertical-align: top;
+        body {
+            font-family: "Noto Sans JP", sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
         }
-      }
 
-      .required::after {
-        content: '※';
-        color: orangered;
-      }
+        h1,
+        h2,
+        h3 {
+            color: #005fab;
+            border-bottom: 2px solid #005fab;
+            padding-bottom: 5px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2em;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            margin-top: 40px;
+        }
+
+        h3 {
+            font-size: 1.2em;
+            border-bottom: 1px solid #005fab;
+            margin-top: 30px;
+        }
+
+        .step {
+            background: #f4f4f4;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .step-number {
+            font-weight: bold;
+            color: #005fab;
+            font-size: 1.2em;
+        }
+
+        .image-placeholder {
+            border: 2px dashed #ccc;
+            background-color: #f9f9f9;
+            text-align: center;
+            padding: 50px 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+
+        .image-placeholder::before {
+            content: "（画像）";
+            color: #999;
+            font-size: 1.1em;
+        }
+
+        .note {
+            background-color: #fffbe6;
+            border-left: 4px solid #ffc107;
+            padding: 10px 15px;
+            margin: 15px 0;
+        }
+
+        .info {
+            background-color: #e9f5ff;
+            border-left: 4px solid #005fab;
+            padding: 10px 15px;
+            margin: 15px 0;
+            border-radius: 5px;
+        }
+
+        .required-mark {
+            color: #e00;
+            font-weight: bold;
+            margin-left: 5px;
+        }
+
+        .red-text {
+            color: #e00;
+            font-weight: bold;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #e9f5ff;
+            font-weight: bold;
+            width: 30%;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
     </style>
-  </head>
+</head>
 
-  <body>
-    <h1>応募方法</h1>
+<body>
 
-    <img src="/img/cover-photo.webp" loading="lazy" width='100%' alt="DojoCon Japan Cover Photo"
-      title="DojoCon Japan Cover Photo" />
+    <h1>コンテスト応募方法</h1>
 
-    <h2>応募方法のステップ</h2>
+    <div class="step">
+        <p>コンテスト応募は以下のステップで行います。</p>
+        <ol>
+            <li>ProtoPediaのアカウントを作成</li>
+            <li>ProtoPediaに作品情報を登録</li>
+            <li>応募フォームに登録</li>
+        </ol>
+    </div>
 
-    <p>
-      コンテスト応募は以下のステップで行います。
-
-      <ol>
-        <li>ProtoPediaのアカウントを作成</li>
-        <li>ProtoPediaに作品情報を登録</li>
-        <li>応募フォームに登録</li>
-      </ol>
-
-      <div class="hint">
-        <a href="https://protopedia.net/" target="_blank">ProtoPedia</a> とはITものづくりに関する作品を記録・公開できるWEBサービスです。
-        DojoConプログラミングコンテスト応募作品以外にも沢山のものづくり作品が掲載されています。
-        プログラミングコンテスト以外の作品もここに登録することで沢山の人に見てもらうことができます。
-
-        <div>
-          <a href="https://protopedia.net/" target="_blank">
-            <img class="protopedia-logo" src="/img/protopedia-logotype.png" loading="lazy" alt="ProtoPedia Logotype"
-              title="ProtoPedia Logotype" />
-          </a>
-        </div>
-      </div>
+    <p>ProtoPediaとはITものづくりに関する作品を記録・公開できるWEBサービスです。DojoConプログラミングコンテスト応募作品以外にも沢山のものづくり作品が掲載されています。プログラミングコンテスト以外の作品もここに登録することで沢山の人に見てもらうことができます。
     </p>
+    <a href="https://protopedia.net/" target="_blank">
+        <img src="/img/protopedia-logotype.png" alt="ProtoPedia Logotype" title="ProtoPedia Logotype"
+            style="width: 200px; display: block; margin: 40px auto;">
+    </a>
 
-    <p>
-      以下にそれぞれのやり方を記載します。
-      わからないところはCoderDojoのメンターさんに聞いてみてくださいね！
-      DojoConのお問い合わせフォームから問い合わせても大丈夫です。
-    </p>
+    <p>以下にそれぞれのやり方を記載します。<br>わからないところはCoderDojoのメンターさんに聞いてみてくださいね！<br>DojoConのお問い合わせフォームから問い合わせても大丈夫です。</p>
 
-    <h2>1. ProtoPediaのアカウントを作成</h2>
+    <h2>１．ProtoPediaのアカウントを作成</h2>
+    <p>まずProtoPediaのアカウントを作成する必要があります。（すでにアカウントがある人は作成する必要はありません。）</p>
+    <div class="note">
+        <p>未成年者のProtoPediaへのアカウント登録は<span class="red-text">保護者の方の同意が必要</span>となります。必ず許可をもらいましょう。</p>
+    </div>
 
-    <p>
-      まずProtoPediaのアカウントを作成する必要があります。
-      （すでにアカウントがある人は作成する必要はありません。）
-      <div class="hint">
-        未成年者のProtoPediaへのアカウント登録は保護者の方の同意が必要となります。
-        必ず許可をもらいましょう。
-      </div>
-    </p>
+    <h3>① ProtoPediaサイトへアクセスし、右上の「新規登録」ボタンをクリック</h3>
+    <img src="/img/contests/how-to-apply/step-1-1.png" alt="ProtoPediaの新規登録ボタン"
+        style="width: 100%; max-width: 600px; display: block; margin: 40px auto;">
 
-    <p>
-      ① ProtoPediaサイトへアクセスし、右上の「新規登録」ボタンをクリック
-    </p>
+    <h3>② メールアドレス・パスワードを入力して「新規登録する」（Google, X, Facebookでも登録可能です）</h3>
+    <img src="/img/contests/how-to-apply/step-1-2.png" alt="新規登録フォーム"
+        style="width: 100%; max-width: 600px; display: block; margin: 40px auto;">
 
-    <p>
-      ② メールアドレス・パスワードを入力して「新規登録する」
-      （Google, X, Facebookでも登録可能です）
-    </p>
+    <h3>③ メールアドレスに確認用のメールが届くのでメールに記載されたURLをクリックして登録ページを開く</h3>
+    <p>「表示名」は本名でもニックネームでも構いません。表示名・ユーザーIDはWeb上で公開されることになります。</p>
+    <p>「サービスを開始する」クリックして登録完了です。</p>
+    <img src="/img/contests/how-to-apply/step-1-3.png" alt="メールアドレス確認画面"
+        style="width: 30%; max-width: 300px; display: block; margin: 40px auto;">
 
-    <p>
-      ③ メールアドレスに確認用のメールが届くのでメールに記載されたURLをクリックして登録ページを開く
-    </p>
+    <h2>2．ProtoPediaに作品情報を登録</h2>
+    <p>1.の手順で作成したアカウントでログインした状態で、右上の「作品を投稿」ボタンをクリックします。</p>
+    <img src="/img/contests/how-to-apply/step-2-1.png" alt="作品を投稿ボタン"
+        style="width: 100%; max-width: 600px; display: block; margin: 40px auto;">
 
-    <p>
-      ④ 「サービスを開始する」クリック
-    </p>
-
-
-    <h2>2. ProtoPediaに作品情報を登録</h2>
-
-    <p>
-      1. の手順で作成したアカウントでログインした状態で、右上の「作品を投稿」ボタンをクリックします。<br>
-
-      <!---->
-
-      <span class="required"></span>の項目はDojoConプログラミングコンテスト応募にあたって入力必須になります
-    </p>
+    <p><span class="required-mark">※</span>の項目はDojoConプログラミングコンテスト応募にあたって入力必須になります。</p>
 
     <table>
-
-      <tr>
-        <td style="width: 12em;">① 作品ステータス<span class="required"></span></td>
-        <td>
-          「完成」で応募してください<br>
-          （完成していないときは「開発中」で保存していても大丈夫です）
-        </td>
-      </tr>
-
-      <tr>
-        <td>② 作品タイトル<span class="required"></span></td>
-        <td>応募する作品のタイトルを入れましょう</td>
-      </tr>
-
-      <tr>
-        <td>③ 作品のURL</td>
-        <td>Scratchで公開されているものなど、Web上で見ることができる場合は入れておきましょう</td>
-      </tr>
-
-      <tr>
-        <td>④ 概要<span class="required"></span></td>
-        <td>作品の簡単な説明を入れてください</td>
-      </tr>
-
-      <tr>
-        <td>⑤ ライセンスの設定</td>
-        <td>デフォルト（表示する）のままで構いません</td>
-      </tr>
-
-      <tr>
-        <td>⑥ 画像<span class="required"></span></td>
-        <td>作品の画像、プログラムの画像などアピールしたい画像を1～5枚登録してください</td>
-      </tr>
-
-      <tr>
-        <td>⑦ 動画<span class="required"></span></td>
-        <td>
-          YouTubeに限定公開で動画をアップしてそのリンクを入れます<br>
-          プログラムが動いている動画やアピールしたいポイントなどの動画を入れましょう。<br>
-          少なくとも動きがわかれば大丈夫です！<br>
-          動画のクオリティは評価対象としませんので簡単なもので大丈夫です。<br>
-          YouTubeへのアップ方法がわからない場合はご相談ください
-        </td>
-      </tr>
-
-      <tr>
-        <td>⑧ システム構成（図）</td>
-        <td>作品がどのように構成されているか図にあらわせる場合は描いてアップロードしますが、空欄でも構いません。</td>
-      </tr>
-
-      <tr>
-        <td>⑨ システム構成（文）</td>
-        <td>作品を構成する要素を書きますが、空欄でも構いません。テキスト入力でOKです。</td>
-      </tr>
-
-      <tr>
-        <td>⑩ 開発素材<span class="required"></span></td>
-        <td>
-          使用したツールやAPIなどを書きます<br>
-          例）Scratch, Viscuit, Unity, Python, Arduino など
-        </td>
-      </tr>
-
-      <tr>
-        <td>⑪ タグ<span class="required"></span></td>
-        <td>
-          使用したプログラミング言語や技術などを書きます<br>
-          “Scratch”など「開発素材」か「タグ」か迷うようなものはどちらにも書いていてOKです
-        </td>
-      </tr>
-
-      <tr>
-        <td>⑫ ストーリー<span class="required"></span></td>
-        <td>
-          こだわりポイントやアピールポイント、難しかったところなどを書きます<br>
-          また必ずコンテストテーマ「ひらめき」とどう結びついた（結びつく）のかを書いてください
-        </td>
-      </tr>
-
-      <tr>
-        <td>⑬ スライドモード</td>
-        <td>このチェックは何もしなくてよいです</td>
-      </tr>
-
-      <tr>
-        <td>⑭ メンバー登録</td>
-        <td>
-          チームの場合のみ必須<span class="required"></span><br>
-          「チーム名を入力」の欄にチーム名を入れます<br>
-          またもしもチームメンバーもProtoPediaのアカウントを持っている（作った）場合は「メンバーを追加する＋」をクリックしてそのメンバーのアカウントを追加します
-        </td>
-      </tr>
-
-      <tr>
-        <td>⑮ 関連リンク</td>
-        <td>関連リンクがある場合は入力しますが、空欄でよいです</td>
-      </tr>
-
+        <tr>
+            <th>① 作品ステータス<span class="required-mark">※</span></th>
+            <td>「完成」で応募してください（完成していないときは「開発中」で保存していても大丈夫です）。</td>
+        </tr>
+        <tr>
+            <th>② 作品タイトル<span class="required-mark">※</span></th>
+            <td>応募する作品のタイトルを入れましょう。</td>
+        </tr>
+        <tr>
+            <th>③ 作品のURL</th>
+            <td>Scratchで公開されているものなど、Web上で見ることができる場合は入れておきましょう。</td>
+        </tr>
+        <tr>
+            <th>④ 概要<span class="required-mark">※</span></th>
+            <td>作品の簡単な説明を入れてください。</td>
+        </tr>
+        <tr>
+            <td colspan="2" style="padding:0; border:0;">
+                <img src="/img/contests/how-to-apply/step-2-2.png" alt="作品の概要入力欄"
+                    style="width: 100%; max-width: 600px; display: block; margin: 40px auto;">
+            </td>
+        </tr>
+        <tr>
+            <th>⑤ ライセンスの設定</th>
+            <td>デフォルト（表示する）のままで構いません。</td>
+        </tr>
+        <tr>
+            <th>⑥ 画像<span class="required-mark">※</span></th>
+            <td>作品の画像、プログラムの画像などアピールしたい画像を1～5枚登録してください。</td>
+        </tr>
+        <tr>
+            <th>⑦ 動画<span class="required-mark">※</span></th>
+            <td>YouTubeに限定公開で動画をアップしてそのリンクを入れます。<br>プログラムが動いている動画やアピールしたいポイントなどの動画を入れましょう。少なくとも動きがわかれば大丈夫です！動画のクオリティは評価対象としませんので簡単なもので大丈夫です。<br>YouTubeへのアップ方法がわからない場合はご相談ください。
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="padding:0; border:0;">
+                <img src="/img/contests/how-to-apply/step-2-3.png" alt="動画のリンク入力欄"
+                    style="width: 100%; max-width: 600px; display: block; margin: 40px auto;">
+            </td>
+        </tr>
+        <tr>
+            <th>⑧ システム構成（図）</th>
+            <td>作品がどのように構成されているか図にあらわせる場合は描いてアップロードしますが、空欄でも構いません。</td>
+        </tr>
+        <tr>
+            <th>⑨ システム構成（文）</th>
+            <td>作品を構成する要素を書きますが、空欄でも構いません。テキスト入力でOKです。</td>
+        </tr>
+        <tr>
+            <td colspan="2" style="padding:0; border:0;">
+                <img src="/img/contests/how-to-apply/step-2-4.png" alt="システム構成の入力欄"
+                    style="width: 100%; max-width: 600px; display: block; margin: 40px auto;">
+            </td>
+        </tr>
+        <tr>
+            <th>⑩ 開発素材<span class="required-mark">※</span></th>
+            <td>使用したツールやAPIなどを書きます。<br>例）Scratch, Viscuit, Unity, Python, Arduino など</td>
+        </tr>
+        <tr>
+            <th>⑪ タグ<span class="required-mark">※</span></th>
+            <td>使用したプログラミング言語や技術などを書きます。<br>“Scratch”など「開発素材」か「タグ」か迷うようなものはどちらにも書いていてOKです。</td>
+        </tr>
+        <tr>
+            <th>⑫ ストーリー<span class="required-mark">※</span></th>
+            <td>こだわりポイントやアピールポイント、難しかったところなどを書きます。<br>また必ずコンテストテーマ「ひらめき」とどう結びついた（結びつく）のかを書いてください。</td>
+        </tr>
+        <tr>
+            <th>⑬ スライドモード</th>
+            <td>このチェックは何もしなくてよいです。</td>
+        </tr>
+        <tr>
+            <td colspan="2" style="padding:0; border:0;"><img src="/img/contests/how-to-apply/step-2-5.png"
+                    alt="ストーリー入力欄" style="width: 100%; max-width: 600px; display: block; margin: 40px auto;"></td>
+        </tr>
+        <tr>
+            <th>⑭ メンバー登録<br><span class="red-text">チームの場合のみ必須</span><span class="required-mark">※</span></th>
+            <td>「チーム名を入力」の欄にチーム名を入れます。<br>またもしもチームメンバーもProtoPediaのアカウントを持っている（作った）場合は「メンバーを追加する＋」をクリックしてそのメンバーのアカウントを追加します。
+            </td>
+        </tr>
+        <tr>
+            <th>⑮ 関連リンク</th>
+            <td>関連リンクがある場合は入力しますが、空欄でよいです。</td>
+        </tr>
     </table>
+    <img src="/img/contests/how-to-apply/step-2-6.png" alt="関連リンク入力欄"
+        style="width: 100%; max-width: 600px; display: block; margin: 40px auto;">
 
-  </body>
+    <p>入力後はこのページの一番上の「一般公開」と表示されているプルダウンの隣の「作品を登録」ボタンを押しましょう。<br>これで作品が登録され、ProtoPedia上で作品が公開されます。</p>
+    <div class="info">
+        <p style="margin: 0;">プルダウンを「下書き保存」にして「作品を登録」ボタンを押すと作品は公開されずに下書きとして保存することもできます。</p>
+    </div>
+    <h2>3．応募フォームに登録</h2>
+    <p>あああああ</p>
+
+</body>
 
 </html>
