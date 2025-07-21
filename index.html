@@ -70,24 +70,24 @@
         color: #f7f7f7;
         padding-top: 0.5em;
         padding-bottom: 0.5em;
-      }
 
-      .button {
-        background-color: #2275ca;
-        color: #f7f7f7;
-        border-radius: 0.5em;
-        border: 1px solid;
-        padding-left: 1em;
-        padding-right: 1em;
-        padding-bottom: 0.5em;
-        padding-top: 0.5em;
-        text-decoration: none;
-        display: inline-block;
-      }
+        .button {
+          background-color: #2275ca;
+          color: #f7f7f7;
+          border-radius: 0.5em;
+          border: 1px solid;
+          padding-left: 1em;
+          padding-right: 1em;
+          padding-bottom: 0.5em;
+          padding-top: 0.5em;
+          text-decoration: none;
+          display: inline-block;
 
-      .button:hover {
-        background-color: #f7f7f7;
-        color: #333;
+          &:hover {
+            background-color: #f7f7f7;
+            color: #333;
+          }
+        }
       }
 
       .my-0 {
@@ -118,16 +118,25 @@
         max-width: 700px;
         font-size: min(22px, 2.7vw);
         text-align: left;
-      }
 
-      .news-section h2 {
-        margin-top: 0;
-        font-size: 1.2em;
-        color: #2275ca;
-      }
+        h2 {
+          margin-top: 0;
+          font-size: 1.2em;
+          color: #2275ca;
+        }
 
-      .news-section ul {
-        padding-left: 1.2em;
+        ul {
+          padding-left: 1.2em;
+
+          time {
+            font-size: 0.75em;
+
+            &::before {
+              content: '»';
+              padding-right: 0.25em;
+            }
+          }
+        }
       }
     </style>
   </head>
@@ -148,6 +157,7 @@
         <ul>
           <li>
             <strong>『DojoCon Japan 2025 プログラミングコンテスト』の開催が決定しました！</strong><br>
+            <time datetime="2025-07-05">2025-07-05</time><br>
             ニンジャの皆さんの作品を広く募集します。ViscuitやScratchなどのプログラミング作品や電子工作、またデジタルアートなどもOK。<br>
             優秀作品はDojoCon Japan 2025当日に会場で発表することができます。<br>
             詳しくは続報をお待ちください。
