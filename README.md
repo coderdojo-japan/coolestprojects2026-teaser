@@ -1,11 +1,16 @@
 # :yin_yang: Teaser Site Template for CoderDojo Conferences like [DojoCon](https://dojocon.coderdojo.jp/) / [DecaDojo](https://decadojo.coderdojo.jp/)
 
+<<<<<<< HEAD
 [![Screenshot of Teaser Site](https://github.com/coderdojo-japan/teaser-template.coderdojo.jp/blob/main/img/screenshot.gif?raw=true)](https://teaser-template.coderdojo.jp/)
+=======
+[![Screenshot of Teaser Site](https://github.com/coderdojo-japan/teaser-template.coderdojo.jp/blob/main/img/readme-cover.gif?raw=true)](https://teaser-template.coderdojo.jp/)
+>>>>>>> b8a451b (Initial commit)
 
 <br>
 
 <div id='howto'></div>
 
+<<<<<<< HEAD
 ## :beginner: 本テンプレートの使い方
 
 [承認された CoderDojo](https://coderdojo.jp/#dojos) であれば、以下の手順で本テンプレートをお使いいただけます。
@@ -25,13 +30,63 @@
    - 公開例 (1/2): [https://dojocon2024-teaser.coderdojo.jp/](https://dojocon2024-teaser.coderdojo.jp/)
    - 公開例 (2/2): [https://teaser-template.coderdojo.jp/](https://teaser-template.coderdojo.jp/) 
      [![Screenshot of Teaser Site](https://github.com/coderdojo-japan/teaser-template.coderdojo.jp/blob/main/img/screenshot.gif?raw=true)](https://teaser-template.coderdojo.jp/)
+=======
+## [:beginner:](#howto) 本テンプレートの使い方
+
+[承認された CoderDojo](https://coderdojo.jp/#dojos) であれば、以下の手順で本テンプレートをお使いいただけます。
+
+### 1. [GitHub](https://github.co.jp/) のアカウントを作る
+[![GitHub Singup](https://github.com/coderdojo-japan/teaser-template.coderdojo.jp/blob/main/img/readme-github.png?raw=true)](https://github.co.jp/)
+[&raquo; https://github.co.jp/](https://github.co.jp/)
+
+<br>
+
+
+### 2. 本ページの画面右上にある `Use this template` -> `Create a new repository` を押す
+![Use this template](https://github.com/coderdojo-japan/teaser-template.coderdojo.jp/blob/main/img/readme-template.png?raw=true)
+
+<br>
+
+
+### 3. 各項目に情報を入力し、本テンプレートから新しいリポジトリを作成する
+![Create with template](https://github.com/coderdojo-japan/teaser-template.coderdojo.jp/blob/main/img/readme-create.png?raw=true)
+
+<br>
+
+
+### 4. [README の動かす方法](#setup)にしたがって、適宜Webサイトを修正・確認する
+![Edit HTML](https://github.com/coderdojo-japan/teaser-template.coderdojo.jp/blob/main/img/readme-edit.png?raw=true)
+
+<br>
+
+
+### 5. 準備ができたら [GitHub Pages](https://www.google.com/search?q=GitHub+Pages) から公開する
+- `Settings` -> `Pages` に行き、`Branch` 欄にある `None` を `main` に変更し、`Save` を押す
+- `Custom domain` 欄が表示されたらドメイン名 (例: `dojocon2024.coderdojo.jp`) を入力し、`Save` を押す
+- :warning: ドメインの適用には DNS 設定が必要です。ココまで設定できたら [@yasulab](https://github.com/yasulab) までご連絡ください! :email: :dash:
+   ![GitHub Pages Settings](https://github.com/coderdojo-japan/teaser-template.coderdojo.jp/blob/main/img/readme-domain.png?raw=true)
+
+<br>
+
+
+### 6. DNS 設定が完了したら、ティザーサイトが公開できているはずです!
+- 公開例 (1/2): [https://dojocon2024-teaser.coderdojo.jp/](https://dojocon2024-teaser.coderdojo.jp/)
+- 公開例 (2/2): [https://teaser-template.coderdojo.jp/](https://teaser-template.coderdojo.jp/)  
+  [![Teaser Site Screenshot](https://github.com/coderdojo-japan/teaser-template.coderdojo.jp/blob/main/img/readme-cover.gif?raw=true)](https://teaser-template.coderdojo.jp/)
+
+<br>
+>>>>>>> b8a451b (Initial commit)
 
 
 <div id='setup'></div>
 
 <br>
 
+<<<<<<< HEAD
 ## :wrench: Ruby / Python / Node.js / PHP で動かす方法
+=======
+## [:wrench:](#setup) Ruby / Python / Node.js / PHP で動かす方法
+>>>>>>> b8a451b (Initial commit)
 
 ### 共通
 
@@ -75,7 +130,10 @@ $ npx http-server
 
 <br>
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> b8a451b (Initial commit)
 ### PHP で動かす方法
 
 ```shell
@@ -91,7 +149,11 @@ $ php -S localhost:8080
 
 <br>
 
+<<<<<<< HEAD
 ## :memo: 動かせたら、開催情報などを入力する
+=======
+## [:memo:](#customize) 動かせたら、開催情報などを入力する
+>>>>>>> b8a451b (Initial commit)
 
 前項の手順で [http://localhost:8080/](http://localhost:8080/) からティザーサイトを表示できたら、以下のファイルにある各項目を修正して完成です。
 
@@ -102,11 +164,19 @@ $ php -S localhost:8080
 入力例: [:octocat: coderdojo-japan/dojocon2025-teaser.coderdojo.jp - fill date / location #1](https://github.com/coderdojo-japan/dojocon2025-teaser.coderdojo.jp/pull/1/files)
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> b8a451b (Initial commit)
 <div id='references'></div>
 
 <br>
 
+<<<<<<< HEAD
 ## :octocat: 関連リポジトリ
+=======
+## [:octocat:](#references) 関連リポジトリ
+>>>>>>> b8a451b (Initial commit)
 
 - [GitHub - ティザーサイト用テンプレート](https://github.com/coderdojo-japan/teaser-template.coderdojo.jp)
 - [GitHub - DojoCon Japan リポジトリ一覧](https://github.com/search?q=org%3Acoderdojo-japan%20dojocon&type=repositories)
@@ -116,7 +186,11 @@ $ php -S localhost:8080
 
 <div id='license'></div>
 
+<<<<<<< HEAD
 ## :handshake: Credits & Works
+=======
+## [:handshake:](#license) Credits & Works
+>>>>>>> b8a451b (Initial commit)
 
 - :yin_yang: The CoderDojo logo in header - See the [CoderDojo Charter](https://coderdojo.jp/charter).
 - :camera_flash: The CoderDojo object in footer is crafted by [DojoCon Japan 2016](https://dojocon2016.coderdojo.jp/) team and photo by [@yasulab](https://github.com/yasulab).

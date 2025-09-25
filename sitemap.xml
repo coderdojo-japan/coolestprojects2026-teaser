@@ -3,6 +3,10 @@
 	xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
 	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+<<<<<<< HEAD
     <loc>https://dojocon2025.coderdojo.jp/</loc>
+=======
+    <loc>https://dojocon-template.coderdojo.jp/</loc>
+>>>>>>> b8a451b (Initial commit)
   </url>
 </urlset>
